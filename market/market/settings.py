@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'products',
     'payment',
     'orders',
-    'cart'
+    'cart',
+    'utils'
 
 ]
 
@@ -164,4 +165,3 @@ SIMPLE_JWT = {
 
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True  # For development only, specify origins in production
-"""
